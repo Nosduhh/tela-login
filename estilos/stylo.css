@@ -62,3 +62,17 @@ div#formulario>h1 {
 div#formulario>p {
     font-size: 1em;
 }
+form > input[type=submit] {
+    height: 40px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #105e5b;
+}
