@@ -77,7 +77,22 @@ div.campo>label {
 }
 
 div.campo>span {
-    color: white
+    color: white;
+   
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-10px);
+    
+    height: 100%;
+    padding: 5px;
+
 }
 
 form>input[type=submit] {
